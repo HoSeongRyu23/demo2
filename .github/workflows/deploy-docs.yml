@@ -44,11 +44,11 @@ jobs:
       - name: Build Marp Presentation
         run: |
           mkdir -p site/presentation
-          npx -y @marp-team/marp-cli@latest docs/Presentation.md -o site/presentation/index.html
+          npx -y @marp-team/marp-cli@latest DOCS/Presentation.md -o site/presentation/index.html
 
       - name: Copy HTML Presentation
         run: |
-          cp docs/presentation.html site/presentation/html.html
+          cp DOCS/presentation.html site/presentation/html.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
