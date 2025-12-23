@@ -1,0 +1,14 @@
+site_name: SAP FCM Training Sandbox
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - PRD: PRD.md
+  - Tutorial: Tutorial.md
+  - Tasks: Tasks.md
+  - Presentation: presentation/index.html
