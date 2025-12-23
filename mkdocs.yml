@@ -1,4 +1,5 @@
 site_name: SAP FCM Training Sandbox
+docs_dir: DOCS
 theme:
   name: material
   features:
