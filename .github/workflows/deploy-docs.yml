@@ -46,6 +46,10 @@ jobs:
           mkdir -p site/presentation
           npx -y @marp-team/marp-cli@latest docs/Presentation.md -o site/presentation/index.html
 
+      - name: Copy HTML Presentation
+        run: |
+          cp docs/presentation.html site/presentation/html.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
