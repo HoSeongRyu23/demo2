@@ -1,3 +1,31 @@
+<meta http-equiv="refresh" content="0; url=/demo2/presentation/html.html">
+
+<style>
+.redirect-message {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+.redirect-message h1 {
+    color: #003366;
+}
+.redirect-message a {
+    color: #00509E;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
+
+<div class="redirect-message">
+
+# 프레젠테이션으로 이동 중...
+
+자동으로 이동되지 않으면 [여기를 클릭하세요](/demo2/presentation/html.html).
+
+</div>
+
+---
+
 # Welcome to SAP FCM Training Sandbox
 
 ## Project Overview
